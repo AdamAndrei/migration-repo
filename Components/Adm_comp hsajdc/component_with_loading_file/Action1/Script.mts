@@ -19,11 +19,11 @@ Set fso = CreateObject("Scripting.FileSystemObject")
 parts = Split(testPath, "\")
 
 partialPath = parts(0)
-For i = 1 To UBound(parts) - 3
+For i = 1 To UBound(parts) - 4
 	partialPath = partialPath & "\" & parts(i)	
 Next
 
-For i = UBound(parts) - 2 To UBound(parts)
+For i = UBound(parts) - 3 To UBound(parts)
 	partialPath = partialPath & "\" & parts(i)
 	Reporter.ReportEvent micDone, "Folder", partialPath
 	Set folder = fso.GetFolder(partialPath)
