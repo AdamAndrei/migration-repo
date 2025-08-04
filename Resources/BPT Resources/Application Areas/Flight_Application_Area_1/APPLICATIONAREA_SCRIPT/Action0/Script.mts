@@ -1,1 +1,0 @@
-﻿Call RunAction("Resources:BPT Resources:Application Areas:Flight_Application_Area_1", oneIteration)
