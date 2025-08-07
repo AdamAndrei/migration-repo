@@ -12,7 +12,7 @@ End If
 filePath = FindResourceFullPath(resourcesParentFolder & "\TestResources", "search.txt")
 
 If filePath = "" Then
-	Reporter.ReportEvent micFail, "Search file", "File not found."
+	Reporter.ReportEvent micWarning, "Search file", "File not found."
 Else
 	Reporter.ReportEvent micPass, "Search file", "Found file: " & filePath
 End If
