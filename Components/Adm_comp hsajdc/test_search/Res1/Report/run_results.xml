@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>Add-in(s) not activated</Name>
+    <Description>The following add-in(s) were associated with your test, but are not currently loaded: 
+WinForms, WPF.</Description>
+    <StartTime>2025-08-07 13:13:06</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="User">
+<Data>
+    <Name>Search</Name>
+    <Description>Found parent folder: C:\MBT-REPOS\migration-repo</Description>
+    <StartTime>2025-08-07 13:13:06</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>632ab7595b784a4eb22106a2bec23d72</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Search file</Name>
+    <Description>File not found.</Description>
+    <StartTime>2025-08-07 13:13:06</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <IconKey>632ab7595b784a4eb22106a2bec23d72</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Nice</Name>
+    <Description>Found: 4 elements.</Description>
+    <StartTime>2025-08-07 13:13:07</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>632ab7595b784a4eb22106a2bec23d72</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>test_search</Name>
+    <Description />
+    <StartTime>2025-08-07 13:13:06</StartTime>
+    <Duration>1</Duration>
+    <Result>Warning</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>70e46b9ca04b4489ba3e4d534e51beef</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>test_search</Name>
+    <ToolName>OpenText Functional Testing</ToolName>
+    <ToolVersion>25.2</ToolVersion>
+    <ToolVersionStringLiteral>25.2</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2025-08-07 13:12:35</StartTime>
+    <Duration>32</Duration>
+    <Result>Warning</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>48af0138b6e749e2927814cd3d48c134</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+03:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>OPENTEXT\aadam2</User>
+      <CpuInfo>Intel(R) Core(TM) Ultra 7 165H</CpuInfo>
+      <NumberOfCores>22</NumberOfCores>
+      <TotalMemory>64981</TotalMemory>
+      <HostName>\OTX-2VMBG54</HostName>
+      <OSInfo>Windows 11 24H2 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1</ResultName>
+    <RunStartTime>2025-08-07 13:12:35</RunStartTime>
+    <Timezone>+03:00:00</Timezone>
+    <OrchestrationToolName>OpenText Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>25.2</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>25.2</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

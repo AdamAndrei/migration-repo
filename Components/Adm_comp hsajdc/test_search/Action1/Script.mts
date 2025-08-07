@@ -9,7 +9,7 @@ Else
 	Reporter.ReportEvent micPass, "Search", "Found parent folder: " & resourcesParentFolder
 End If
 
-filePath = FindResourceFullPath(resourcesParentFolder & "\TestResources", "search.txt")
+filePath = FindResourceFullPath(resourcesParentFolder & "\TestResources", "agent-start.txt")
 
 If filePath = "" Then
 	Reporter.ReportEvent micWarning, "Search file", "File not found."
